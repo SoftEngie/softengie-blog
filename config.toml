@@ -1,3 +1,13 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://softengie.github.io/softengie-blog/"
+languageCode = "en-us"
+title = "Soft Engie's Blog"
+theme = "m10c"
+
+[params]
+  author = "SoftEngie"
+  description = "Trying to explain what I do to better understanding it"
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/SoftEngie"
